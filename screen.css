@@ -1,1 +1,37 @@
-/* Add screen styles below */
+/* styles.css */
+.hero {
+    background-image: url('https://via.placeholder.com/1500x600');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 150px 0;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: auto;
+}
+
+.features {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+
+.feature-item {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.feature-item i {
+    font-size: 48px;
+    color: #007bff;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    color: #666;
+    text-align: center;
+    padding: 20px 0;
+}
+
