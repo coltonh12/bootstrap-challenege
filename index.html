@@ -3,51 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dribbble Design Reproduction</title>
+    <title>Dribbble Landing Page</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        /* Custom CSS can be added here */
-    </style>
+    <link rel="stylesheet" href="screen.css">
 </head>
 <body>
 
-<div class="container">
-    <!-- Header -->
-    <header class="text-center py-5">
-        <h1>Discover Amazing Designs</h1>
-        <p>Explore the latest creations from talented designers</p>
-        <a href="#" class="btn btn-primary">Get Started</a>
-    </header>
-
-    <!-- Main Content -->
-    <div class="row">
-        <div class="col-md-6">
-            <img src="your-image-url.jpg" class="img-fluid" alt="Image">
+<div class="container-fluid">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Dribbble</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Discover</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Jobs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Hiring</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sign Up</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn btn-primary" href="#">Sign In</a>
+                </li>
+            </ul>
         </div>
-        <div class="col-md-6">
-            <h2>Design Inspiration</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
-            <p>Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh.</p>
-            <a href="#" class="btn btn-secondary">View More</a>
-        </div>
-    </div>
+    </nav>
 
-    <!-- Call to Action -->
-    <section class="text-center py-5">
-        <h2>Ready to Explore?</h2>
-        <p>Join our community and start discovering amazing designs today!</p>
-        <a href="#" class="btn btn-primary">Join Now</a>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Discover the World's Top Designers & Creative Professionals</h1>
+            <p>Explore over 10 million inspiring projects and connect with designers worldwide.</p>
+            <a href="#" class="btn btn-lg btn-primary">Join Dribbble</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="feature-item">
+                        <i class="fas fa-pencil-alt"></i>
+                        <h3>Inspiring Designs</h3>
+                        <p>Discover millions of designs created by talented professionals.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-item">
+                        <i class="fas fa-users"></i>
+                        <h3>Connect & Collaborate</h3>
+                        <p>Connect with designers worldwide and collaborate on projects.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-item">
+                        <i class="fas fa-briefcase"></i>
+                        <h3>Find Jobs</h3>
+                        <p>Discover job opportunities and advance your career.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Footer -->
-    <footer class="text-center py-4">
-        <p>&copy; 2024 Your Website</p>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Dribbble. All rights reserved.</p>
+        </div>
     </footer>
 </div>
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </body>
 </html>
 
